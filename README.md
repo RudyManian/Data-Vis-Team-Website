@@ -1,4 +1,8 @@
-#000000
+:root {
+  --background: #333;
+  --text: #FFF;
+  --highlight: #39AC4C;
+}
 **Meet the team** <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
