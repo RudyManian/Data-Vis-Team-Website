@@ -3,7 +3,8 @@
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
 -Giovanni Tuzzio, sophomore studying game development <br>
-![Image of team members from left to right](docs/assets/images/IMG_9739 (1).jpg)
+<img src="docs/assets/images/IMG_9739 (1).jpg" alt="Team Members">
+
 
 <br>
 
