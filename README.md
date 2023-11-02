@@ -1,4 +1,4 @@
-**Meet the team** <br>
+#**Meet the team** <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
