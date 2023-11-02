@@ -1,8 +1,10 @@
 **Meet the team** <br>
+<h1 style="font-size: 15px;">
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
 -Giovanni Tuzzio, sophomore studying game development <br>
+</h1>
 <br>
 <img src="docs/assets/images/IMG_9739 (1).jpg" alt="Team Members"> <br>
 *Team members from left to right* <br>
