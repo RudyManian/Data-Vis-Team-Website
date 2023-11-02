@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 
 <h1 style="font-size: 25px;"> Meet the team </h1> <br>
 <p1 style="font-size: 5px;">
