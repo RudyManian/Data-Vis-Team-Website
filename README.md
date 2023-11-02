@@ -1,3 +1,4 @@
+#000000
 **Meet the team** <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
