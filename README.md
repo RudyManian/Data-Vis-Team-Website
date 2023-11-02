@@ -2,7 +2,7 @@
 <html>
   
 <body>
-  <font size = "7"> <b> Meet the Team </font> </b> <br>
+  <font size = "8"> <b> Meet the Team </font> </b> <br>
   <font size = "4"> <b>-Will Cromer,</font> </b> sophomore studying data visualization <br>
   -Rudy Manian, junior studying animation and VFX <br>
   -Lev Working, sophomore studying game development <br>
