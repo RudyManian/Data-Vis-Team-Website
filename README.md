@@ -2,13 +2,12 @@
 <html>
 
 <body>
-  <h1 style="font-size: 25px;"> Meet the team </h1> <br>
-  <p1 style="font-size: 5px;">
-  -Will Cromer, sophomore studying data visualization <br>
+  <font size = "7"> Meet the team </font> <br>
+  <font size = "4">-Will Cromer,</font> sophomore studying data visualization <br>
   -Rudy Manian, junior studying animation and VFX <br>
   -Lev Working, sophomore studying game development <br>
   -Giovanni Tuzzio, sophomore studying game development <br>
-  </p1> <br>
+  <br>
 
   <img src="docs/assets/images/IMG_9739 (1).jpg" alt="Team Members"> <br>
   *Team members from left to right* <br>
