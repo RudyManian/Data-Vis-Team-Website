@@ -1,3 +1,4 @@
+<font size="5">
  <font size="+2">**Meet the team**</font> <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
