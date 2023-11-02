@@ -1,11 +1,15 @@
 <font size="5">
- <font size="+2">**Meet the team**</font> <br>
+<font size="+2">
+ **Meet the team**<br>
+</font> 
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Giovanni Tuzzio, sophomore studying game development <br>
 
- <font size="+2">**Topic Summary**</font> <br>
+<font size="+2">
+**Topic Summary**<br>
+</font> 
 Game developers often overlook the crucial step of analyzing the market before picking the genre of
 game they choose to develop. This often leads to developers entering oversaturated markets; their
 titles, consequently, flounder. This project seeks to provide a breakdown of revenue statistics from the
