@@ -1,5 +1,5 @@
 **Meet the team** <br>
-<h1 style="font-size: 15px;">
+<h1 style="font-size: 10px;">
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
