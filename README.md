@@ -1,5 +1,5 @@
 
-<t1 style="font-size: 25px;"> Meet the team </t1> <br>
+<h1 style="font-size: 25px;"> Meet the team </h1> <br>
 <p1 style="font-size: 5px;">
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
