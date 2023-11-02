@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-  
 <body>
   <font size = "8"> <b> Meet the Team </font> </b> <br>
   <font size = "4"> <b>-Will Cromer,</font> </b> sophomore studying data visualization <br>
