@@ -1,10 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Toggle - Dark Theme</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-</head>
-
 **Meet the team** <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
