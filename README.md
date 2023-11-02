@@ -1,11 +1,8 @@
-# Data-Vis-Team-Website
-Fighting Badgers CGT270 Website
-
 # Meet the team
--Rudy Manian, junior studying animation and VFX
--Lev Working, sophomore studying game development
--Will Cromer, sophomore studying data visualization
--Giovanni Tuzzio, sophomore studying game development
+=Rudy Manian, junior studying animation and VFX <br>
+-Lev Working, sophomore studying game development <br>
+-Will Cromer, sophomore studying data visualization <br>
+-Giovanni Tuzzio, sophomore studying game development <br>
 
 #Topic Summary
 Game developers often overlook the crucial step of analyzing the market before picking the genre of
