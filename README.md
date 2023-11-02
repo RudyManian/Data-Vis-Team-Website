@@ -1,4 +1,3 @@
-
 **Meet the team** <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
