@@ -1,4 +1,4 @@
-#Meet the team <br>
+# Meet the team <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Rudy Manian, junior studying animation and VFX <br>
 -Lev Working, sophomore studying game development <br>
@@ -8,7 +8,7 @@
 *Team members from left to right* <br>
 
 
-#Topic Summary <br>
+# Topic Summary <br>
 Game developers often overlook the crucial step of analyzing the market before picking the genre of
 game they choose to develop. This often leads to developers entering oversaturated markets; their
 titles, consequently, flounder. This project seeks to provide a breakdown of revenue statistics from the
