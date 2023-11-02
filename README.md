@@ -4,10 +4,9 @@
 -Lev Working, sophomore studying game development <br>
 -Giovanni Tuzzio, sophomore studying game development <br>
 <br>
-<img src="docs/assets/images/IMG_9739 (1).jpg" alt="Team Members">
-*Team members from left to right*
+<img src="docs/assets/images/IMG_9739 (1).jpg" alt="Team Members"> <br>
+*Team members from left to right* <br>
 
-<br>
 
 **Topic Summary** <br>
 Game developers often overlook the crucial step of analyzing the market before picking the genre of
