@@ -6,7 +6,7 @@
 -Lev Working, sophomore studying game development <br>
 -Will Cromer, sophomore studying data visualization <br>
 -Giovanni Tuzzio, sophomore studying game development <br>
-
+<br>
 <font size="+2">
 **Topic Summary**<br>
 </font> 
