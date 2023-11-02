@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html>
+  
 <body>
-  <font size = "7"> Meet the team </font> <br>
-  <font size = "4">-Will Cromer,</font> sophomore studying data visualization <br>
+  <font size = "7"> <b> Meet the Team </font> </b> <br>
+  <font size = "4"> <b>-Will Cromer,</font> </b> sophomore studying data visualization <br>
   -Rudy Manian, junior studying animation and VFX <br>
   -Lev Working, sophomore studying game development <br>
   -Giovanni Tuzzio, sophomore studying game development <br>
