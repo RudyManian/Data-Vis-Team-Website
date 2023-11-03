@@ -26,7 +26,7 @@ margin-bottom: 20px;
 
 /* Div of the collapsible styling */
 .collapsible {
-  margin-left: 20px; margin-right:20px; margin-top: 0px; margin-bottom: 
+  margin-left: -2px; margin-right:auto; margin-top: 10px; margin-bottom: 
 10px;
   background-color: #777;
   color: white;
@@ -62,23 +62,19 @@ margin-bottom: 20px;
 
 /* Div of the contents in collapsibles */
 .contents {
-  margin-left: 20px; margin-right:20px; margin-top: 00px; margin-bottom:
- 10px;
+  margin: auto;
   background-color: #e8f6e9;
   max-height: 0;
-  width: 95%;
+  width: 100%;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
 
 /* Div of the text within first collapsible */
 .text {
-  margin-left: 0px; margin-right:10px; margin-top: 40px; margin-bottom: 
-10px;
-  font-size: 35px;
-  width: 67%;
-  height: auto;
-  float: right;
+  width: auto;
+  margin-left: margin: auto; margin-right: margin: auto; margin-top: 70px; margin-bottom: 70px;
+  font-size: 30px;
   #names { font-size: 35px; }
 }
 
@@ -87,7 +83,7 @@ margin-bottom: 20px;
   color:404040;
   text-align: center;
   font-style: italic;
-  margin-left: 10px; margin-right:00px; margin-top: 50px; margin-bottom:
+  margin-left: margin: auto; margin-right: margin: auto; margin-top: 50px; margin-bottom:
  40px;
   width: 30%;
   float: left;
@@ -115,8 +111,17 @@ margin-bottom: 20px;
  <button type="button" class="collapsible"> Meet the Team 
 </button>
 
+
  <!-- Wrapper for names and group pic -->
  <section class="contents">
+ 
+  
+  <!-- Group Pic -->
+  <div class="group_pic_div">
+   <img src="docs/images/IMG_9739_(1).jpg" width=80% alt="Team 
+Members"> <br>
+   <c> Team members from left to right </c> <br>
+ </div>
  
   <!-- Team member descriptions -->
   <div class="text">
@@ -135,14 +140,10 @@ margin-bottom: 20px;
    </p>
   </div>
  
-  <!-- Group Pic -->
-  <div class="group_pic_div">
-   <img src="docs/images/IMG_9739_(1).jpg" width=80% alt="Team Members"> <br>
-   <c> Team members from left to right </c> <br>
- </div>
- 
 </section>
 
+
+ 
  <!-- Collapsible, for "topic summary" -->
  <button type="button" class="collapsible"> Topic Summary 
 </button>
