@@ -1,59 +1,180 @@
 <!DOCTYPE
+
  html>
 <html>
 <head>
-
+<meta name="Webpage" content="width=device-width, 
+initial-scale=1">
 <style>
- h1 {font-family: "Helvetica";}
- h1 {text-decoration: underline; text-decoration-color: #4b009f; ;  } 
- h1 {text-align: center;}
- h1 {font-size: 100px;}
- h1 {color:white;}
 
- h2 {font-size: 50px;}
- h2 {color:white;}
- h2 {margin-left: 50px; margin-top: 30px; margin-bottom: 10px}
+body {background-color: #2a4248;}
 
- body {background-color: #2a4248;}
+/* Div for the main page title */
+.title_div {
+ background-color: #0d718a;
+ font-family: "Arial";
+ text-align: center;
+ font-size: 80px;
+ color:white;
+ padding: 10px;
+ margin-left: -10px; margin-right:-10px; margin-top: -10px; margin-bottom: 20px;
+ h1 {margin-left: 0px; margin-right:0px; margin-top: 0px; margin-bottom: 0px;}
+}
 
- p {color:white;}
- p {margin-left: 80px; margin-top: 0px;}
- #names { font-size: 26px; }
+/* Div of the collapsible styling */
+.collapsible {
+  margin-left: 20px; margin-right:20px; margin-top: 0px; margin-bottom: 10px;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 40px;
+}
 
- img {margin-left: 120px;}
+/* Class and styling for collapsible when hovered on */
+.active, .collapsible:hover {
+  background-color: #555;
+}
 
- c {color:white;}
- c {margin-left: 140px;}
+/* Collapsible after being opened */
+.collapsible:after {
+  content: "➤\00a0";
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+}
+
+/* Class for open collapsible  */
+.active:after {
+  content: "⮟\00a0";
+}
+
+
+/* Div of the contents in collapsibles */
+.contents {
+  margin-left: 20px; margin-right:20px; margin-top: 00px; margin-bottom: 10px;
+  background-color: #e8f6e9;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+/* Div of the text within first collapsible */
+.text {
+  margin-left: 0px; margin-right:10px; margin-top: 40px; margin-bottom: 10px;
+  font-size: 35px;
+  width: 67%;
+  height: auto;
+  float: right;
+  #names { font-size: 35px; }
+}
+
+/* Div of the team group photo */
+.group_pic_div {
+  color:404040;
+  text-align: center;
+  font-style: italic;
+  margin-left: 10px; margin-right:00px; margin-top: 50px; margin-bottom: 40px;
+  width: 30%;
+  float: left;
+}
+
+/* Div of the contents in second collapsible */
+.text2 {
+  margin-left: 40px; margin-right:30px; margin-top: 0px; margin-bottom: 10px;
+  font-size: 35px;
+  transition: max-height 0.5s ease-out;
+}
+
 </style>
 
-
+<!-- ----------------------------------------------------THINGS THAT ARE DISPLAYED START HERE---------------------------------------------------- -->
 <body>
+
+ <!-- Title -->
+ <div class="title_div">
+  <h1> FIGHTING BADGERS </h1>
+ </div>
  
- <br><h1>Team Fighting Badgers</h1><br>
- 
- <h2> <b> Meet the Team </b> </h2>
- <p>
- <span id="names"> <b>-Will Cromer:</span> </b> sophomore studying data visualization <br>
- <span id="names"> <b>-Rudy Manian:</span> </b> junior studying animation and VFX <br>
- <span id="names"> <b>-Lev Working:</span> </b> sophomore studying game development <br>
- <span id="names"> <b>-Giovanni Tuzzio:</span> </b> sophomore studying game development <br>
- </p>
- 
- <img src="docs/images/IMG_9739_(1).jpg" width=20% height=auto alt="Team Members"> <br>
- <c> Team members from left to right </c> <br>
+ <!-- Collapsible, for "meet the team" -->
+ <button type="button" class="collapsible"> Meet the Team 
+</button>
 
 
- <h2>Topic Summary</h2> 
- <p>
- Game developers often overlook the crucial step of analyzing the market before picking the genre of
- game they choose to develop. This often leads to developers entering oversaturated markets; their
- titles, consequently, flounder. This project seeks to provide a breakdown of revenue statistics from the
- popular platform Steam, and determine what genres are oversaturated and which are underutilized by
- examining the revenue associated with each tag. The results should be enlightening for game companies
- and independent developers alike, with the results most pertinent to smaller studios. <br>
- </p>
+ <!-- Wrapper for names and group pic -->
+ <section class="contents">
  
+  <!-- Team member descriptions -->
+  <div class="text">
+   <p>
+   <span id="names"> <b>-Will Cromer:</span> 
+</b>
+  sophomore studying data visualization <br><br>
+   <span id="names"> <b>-Rudy Manian:</span> 
+</b>
+  junior studying animation and VFX <br><br>
+   <span id="names"> <b>-Lev Working:</span> 
+</b>
+  sophomore studying game development <br><br>
+   <span id="names"> <b>-Giovanni Tuzzio:</span> 
+ </b> sophomore studying game development <br><br>
+   </p>
+  </div>
+ 
+  <!-- Group Pic -->
+  <div class="group_pic_div">
+   <img src="docs/images/IMG_9739_(1).jpg" width=80% alt="Team Members"> <br>
+   <c> Team members from left to right </c> <br>
+ </div>
+ 
+</section>
 
+ <!-- Collapsible, for "topic summary" -->
+ <button type="button" class="collapsible"> Topic Summary </button>
+ 
+ <!-- Wrapper topic summary -->
+ <section class="contents">
+ 
+  <!-- Topic summary -->
+  <div class="text2">
+   <p>
+   Game developers often overlook the crucial step of analyzing the market before picking the genre of
+   game they choose to develop. This often leads to developers entering oversaturated markets; their
+   titles, consequently, flounder. This project seeks to provide a breakdown of revenue statistics from the
+   popular platform Steam, and determine what genres are oversaturated and which are underutilized by 
+   examining the revenue associated with each tag. The results should be enlightening for game companies and 
+   independent developers alike, with the results most pertinent to smaller studios. <br>
+   </p>
+  </div>
+</section>
+
+<!-- ----------------------------------------------------THINGS THAT ARE DISPLAYED END HERE---------------------------------------------------- -->
+
+
+<!-- ----------------------------------------------------JavaScript------------------------------------------------------>
+<!-- Collapsible code -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<!-- closers -->
 </body>
 </html>
-
