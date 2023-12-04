@@ -16,10 +16,32 @@ body {background-color: #2a4248;}
  color:white;
  padding: 10px;
  margin-left: -10px; margin-right:-10px; margin-top: -10px; 
-margin-bottom: 20px;
- <h1> margin-left: 0px; margin-right:0px; margin-top: 0px; margin-bottom:
- 0px; </h1>
+margin-bottom: 00px;
+ <h1> margin-left: 0px; margin-right:0px; margin-top: 0px; margin-bottom: 
+ 10px; </h1> /* I dont know why in gods name doing it this way works but it does. :Shrug: */
 }
+
+/* Div for the section titles */
+.visualizations_div {
+ background-color: #25292a;
+ font-family: "Arial";
+ text-align: left;
+ font-size: 40px;
+ color:white;
+ padding: 10px;
+ margin-left: -10px; margin-right:-10px; margin-top: 00px; 
+ margin-bottom: 20px;
+ <h2> margin-left: 10px; margin-right:0px; margin-top: 00px; margin-bottom:
+ 0px; </h2>
+}
+
+h2 {
+margin-left: 10px;
+margin-right:0px;
+margin-top: 0px;
+margin-bottom: 10px; 
+}
+
 
 /* Div of the collapsible styling */
 .collapsible {
@@ -93,6 +115,24 @@ margin-bottom: 20px;
   transition: max-height 0.5s ease-out;
 }
 
+/* Div of the visualizations */
+.charts_div {
+  text-align: center;
+  font-style: italic;
+  margin-left: margin: auto; margin-right: margin: auto; margin-top: 10px; margin-bottom:
+ 10px;
+  width: 100%;
+  float: center;
+}
+
+/* Div of the blurbs */
+.blurbs {
+  margin-left: 40px; margin-right:30px; margin-top: 0px; margin-bottom: 
+10px;
+  font-size: 35px;
+  transition: max-height 0.5s ease-out;
+}
+
 </style>
 
 <!-- ----------------------------------------------------THINGS THAT ARE DISPLAYED START HERE---------------------------------------------------- -->
@@ -103,6 +143,11 @@ margin-bottom: 20px;
   <h1> FIGHTING BADGERS </h1>
  </div>
  
+ <!-- Visualizations -->
+ <div class="visualizations_div">
+  <h2> Overview </h2>
+ </div>
+
  <!-- Collapsible, for "meet the team" -->
  <button type="button" class="collapsible"> Meet the Team 
 </button>
@@ -147,6 +192,206 @@ Members"> <br>
    </p>
   </div>
 </section>
+
+ <!-- Collapsible, for "overview video" -->
+ <button type="button" class="collapsible"> Overview Video 
+</button>
+
+  <!-- Wrapper overview video -->
+  <section class="contents">
+
+   <!-- Overview video -->
+   <div class="text2">
+   <video width="640" height="480" controls>
+    <source src="docs/videos/TFightingBadgersVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+   </video> 
+  </div>
+</section>
+
+<br>
+<br>
+
+<!-- ===========================
+Visualizations
+=========================== -->
+
+ <!-- Visualizations -->
+ <div class="visualizations_div">
+  <h2> Data Analysis </h2>
+ </div>
+
+
+
+
+
+
+ <!-- Collapsible, for "will's visualization" -->
+ <button type="button" class="collapsible"> 2016 Game Production and Sales 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Game_sales_and_production_2016.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Will Cromer </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> The graph shows the total number of games produced by each genre in the year 2016 and the total amount of copies sold by each genre. The action genre has by far the most games produced at 178 but comes second in copies sold at 30 million. The shooter genre sold the most copies at 38 million. Adventure, Role-Playing, Shooter, and Sports games all have similar number of games produced between 47 and 56, but the amount of copies sold between those four genres varies from 3.8 million to 38.2 million. <br>
+   </p>
+  </div> 
+</section>
+
+ <!-- Collapsible, for "will's visualization #2" -->
+ <button type="button" class="collapsible"> Critic vs User Score 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Critic_vs_user_rating.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Will Cromer </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> Throughout majority of the genres the critic ratings are higher than the user ratings. On average the critics rate games higher by 6%. The only exceptions are in the adventure, Role-playing, and miscellaneous genres. The platform and sports genre stand out as there is a significantly lower user score than critic scores. The highest rated genres on average are Strategy and Role-playing while the lowest scoring genres are Platform and Simulation games. <br>
+   </p>
+  </div> 
+</section>
+
+
+
+
+
+
+ <!-- Collapsible, for "rudy's visualization" -->
+ <button type="button" class="collapsible"> Revenue Analysis 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Revenue_analysis.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Rudy Manian </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> While indie, or independantly developed, games in general make less than other genres, the difference between these games and the industry average tends to be low. Especially for games that make under $100k, the difference between genres is minimal. Most genres generate similair revenue on average. The exception here is casual games, which overall are more likely to make less total revenue than other genres. Knowing this, game developers for casual games should try to keep the costs of developing publishing their down as a high budget production is likely to have a poor return on interest for this genre. <br>
+   </p>
+  </div> 
+</section>
+
+ <!-- Collapsible, for "rudy's visualization #2" -->
+ <button type="button" class="collapsible"> Revenue Analysis at the High End
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Revenue_analysis_high_end.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Rudy Manian </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> At the top end of game revenues, independant and casual games make far less revenue than other genres. This is reasonable, as they tend to have lower cost of production, far less marketing and a lack of pre-existing fan base to generate excitement and spread word of their game. This should not discourage these developers, however, as many of the games within this price range tend to be large titles from established studios who, while bringing in more revnue, also have far higher costs. In general, indie and casual games do not tend to compete with these games or for their players.  <br>
+   </p>
+  </div> 
+</section>
+
+
+
+
+
+
+ <!-- Collapsible, for "lev's visualization" -->
+ <button type="button" class="collapsible"> User Score and Average Revenue 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Userscore_vs_revenue.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Lev Working </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> Although the correlation established here is relatively intuitive, it is important to challenge all conventional wisdom with regards to game development to ensure they are correct. Revenue was averaged between neighbors to reduce variance and better show the trend of revenue increasing with user score. It is also important to note that Average revenue of games is different from Median revenue from games, which is better illustrated by other visualizations. <br>
+   </p>
+  </div> 
+</section>
+
+ <!-- Collapsible, for "lev's visualization #2" -->
+ <button type="button" class="collapsible"> Best and Worst Performing Tags 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Tag_performance.png" width=70% alt="Team Members"> <br>
+   <c> Visualization by Lev Working </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> Tags with few titles is defined as tags with under 50 games. Including those leads to odd outliers such as Wrestling or Submarine being the most successful genres, though perhaps it could be argued that this is an underserved market. Also excluded from this visualization were non-game related tags such as Documentary & Software, as they are outside the bounds of this project. Many of the most successful tags are self-evident staples of the video game medium: survival, crafting, and combat games. Meanwhile, the least successful tags were those that can largely be regarded as a disadvantage. Text-Based means that a game lacks graphics. Minimalist can be interpreted as low-effort by users. Time-Management and Hidden Object are simply unfun mechanics.
+. <br>
+   </p>
+  </div> 
+</section>
+
+
+
+ <!-- Collapsible, for "gio's visualization" -->
+ <button type="button" class="collapsible"> Sales per month 
+</button>
+
+ <!-- Chart and Blurb -->
+ <section class="contents">
+ 
+  <!-- Chart -->
+   <div class="charts_div">
+   <img src="docs/images/Sales_per_month.png" width=80% alt="Team Members"> <br>
+   <c> Visualization by Giovanni Tuzzio </c> <br>
+   </div> 
+ 
+  <!-- Blurb -->
+  <div class="blurbs">
+   <p>
+   </b> May and November are the peak months for video game sales. This is likely due to these being the holiday season for many and games going on sale at this time. Knowing what time of the year produces the most sales can help developers decide when to publish a game
+. <br>
+   </p>
+  </div> 
+</section>
+
+
+
+
+
+
 
 <!-- ----------------------------------------------------THINGS THAT ARE DISPLAYED END HERE---------------------------------------------------- -->
 
